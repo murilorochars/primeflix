@@ -43,7 +43,7 @@ const home = () => {
                     alt={e.title}
                   />
                   <p>
-                    <Link to="/filmes">Acessar</Link>
+                    <Link to={"/filmes/" + e.id}>Acessar</Link>
                   </p>
                 </div>
               </article>
